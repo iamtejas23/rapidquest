@@ -1,0 +1,32 @@
+/* ContributionOvertime.css */
+.contribution-overtime {
+    /* padding: 20px; */
+    /* background-color: #f4f4f4; */
+    border-radius: 10px;
+    /* margin: 20px; */
+  }
+
+  .contribution-overtime h6{
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .chart-container {
+    position: relative;
+    width: 100%;
+    /* padding: 16px; */
+  }
+  
+  @media (min-width: 768px) {
+    .contribution-overtime {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .chart-container {
+      width: 80%;
+      max-width: 600px;
+    }
+  }
+  

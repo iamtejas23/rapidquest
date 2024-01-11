@@ -1,0 +1,319 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 40px; */
+  }
+  
+  .section {
+    flex: 1;
+    min-width: 200px;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    
+  }
+
+  first{
+    margin-left: 20px;
+  }
+
+  .avatar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar img {
+    max-width: 100px;  /* Adjust the max-width as needed */
+    border-radius: 50%;
+    margin-right: 20px;  /* Adjust the margin as needed */
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .text h1 {
+    margin: 0;
+    font-size: 1.5em;  /* Adjust the font size as needed */
+  }
+
+  .Balance h4,
+  .Balance h3,
+  .Balance p {
+    line-height: 30%;
+  }
+
+  /* balance section */
+  /* Your existing styles for large screens */
+
+  .Balance {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .Balance h3{
+    font-size: 34px;
+  }
+
+  
+
+.Balance h3 {
+  color: #000000;
+}
+
+.Balance p {
+  color: #888;
+}
+
+/* Additional styles for small screens */
+
+/* transactions section */
+/* RecentTransactions.css */
+
+.recent-transactions {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+
+.transaction {
+  margin-bottom: 5px;
+}
+
+.description {
+  font-weight: bold;
+}
+
+.amount {
+  color: green;
+}
+
+.date {
+  color: gray;
+}
+
+.line {
+  border-top: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .recent-transactions {
+    padding: 0 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Balance {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+  }
+
+ /* Additional styles for small screens */
+
+@media (max-width: 768px) {
+  .ch4 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ch4 h4 {
+    margin-bottom: 0;
+  }
+
+  .ch4 p {
+    margin-top: 5px; /* Adjust as needed for spacing */
+  }
+}
+  .Balance h4,
+  .Balance h3,
+  .Balance p {
+    margin: 0;
+  }
+
+  .Balance h4,
+  .Balance h3,
+  .Balance p {
+    line-height: 150%;
+  }
+}
+
+
+  /* button 1 */
+  .btn1{
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  .btn1 .btn{
+    border: none;
+    background-color: rgb(24, 30, 209);
+    padding: 10px 20px ;
+    color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btn1 .btn select{
+    background-color: transparent;
+    border: none;
+    color: #f0f0f0;
+  }
+
+  @media (min-width: 768px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 40px;
+      }
+
+  }
+
+  /* Section 2..... */
+.retirenment .pt{
+  color: blue;
+  font-weight: 600;
+}
+
+  .retirenment-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    line-height: 1rem;
+  }
+
+  .re-line{
+    border-top: 1px solid #44d6f0;
+  }
+
+  .retirenment-container h5{
+    font-size: 24px;
+  }
+
+  /* Rondes */
+  .ronds{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .ronds select{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+
+  /* Section 3 css  */
+  .line-3{
+    margin-top: 1.5rem;
+  }
+
+
+ /* Your existing styles */
+
+.lst {
+  
+  margin: 0 auto; /* Center the content */
+ margin-top: 1rem;
+  
+}
+
+.lst div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.lst h4 {
+  
+  margin: 0;
+}
+
+.lst p {
+  color: #555;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.btn2 .btn{
+  border: none;
+    background-color: rgb(24, 30, 209);
+    padding: 10px 60px ;
+    color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.docs{
+  text-align: center;
+  color: blue;
+  font-weight: 700;
+}
+
+/* ColoredStickSection.css */
+
+.custom-colored-stick-section {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.custom-colored-stick {
+  width: 3px;
+  height: 100px;
+  background-color: #3498db; /* Set your desired color */
+  margin-right: 20px;
+}
+
+.custom-text-content {
+  flex-grow: 1;
+  
+}
+
+.custom-text-content span{
+  font-weight: 800;
+}
+
+.custom-text-content h2 {
+  color: #333;
+}
+
+.custom-text-content h6{
+  color: blue;
+  font-weight: 600;
+}
+
+.custom-text-content p {
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-colored-stick-section {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    
+  }
+
+  .custom-colored-stick {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}

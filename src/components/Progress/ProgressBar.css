@@ -1,0 +1,22 @@
+/* ProgressBar.css */
+
+.wrapper {
+    width: 500px;
+  }
+  
+  .progress-bar {
+    width: 80%;
+    /* background-color: #e0e0e0; */
+    padding: 1px;
+   
+   
+  }
+  
+  .progress-bar-fill {
+    display: block;
+    height: 8px;
+    background-color: #659cef;
+    border-radius: 50px;
+    transition: width 500ms ease-in-out;
+  }
+  

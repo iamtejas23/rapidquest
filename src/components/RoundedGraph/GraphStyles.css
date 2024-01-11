@@ -1,0 +1,16 @@
+/* RoundedGraph.css */
+.rounded-graph-container {
+    display: flex;
+    flex-direction: row;
+    /* float: left;
+    justify-content: space-evenly;
+    align-items: center; 
+    gap: 2rem; */
+  }
+  
+  .chart-container-rond {
+    width: 50px;
+    height: 50px;
+    /* display: flex; */
+  }
+  

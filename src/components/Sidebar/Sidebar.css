@@ -1,0 +1,83 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 50px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    padding-top: 20px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .upperitems a {
+    display: block;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .nav-items a {
+    display: block;
+    color: rgb(111, 111, 111);
+    text-decoration: none;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .nav-items a:hover {
+    background-color: blue;
+    border-radius: 10px;
+    color: whitesmoke;
+  }
+  
+  .bottom-icons {
+    position: absolute;
+    bottom: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(111, 111, 111);
+    gap: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+
+    .sidebar{
+        background-color: transparent;
+    }
+
+    .nav-items {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 10px;
+      background-color: whitesmoke;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .nav-items a {
+      font-size: 14px;
+      padding: 8px;
+      margin-bottom: 8px;
+    }
+  
+    .bottom-icons,
+    .upperitems {
+      display: none;
+    }
+  }
+  
